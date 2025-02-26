@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* min-height: 100vh; */
+  background-image: url(https://png.pngtree.com/background/20230616/original/pngtree-landscape-grassy-hills-at-sunrise-over-hills-picture-image_3632835.jpg);
+  background-size: cover;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  color: rgb(14, 15, 14);
+  position: relative;
+}
+.container {
+  width: 500px;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  box-shadow: 8px 8px 8px;
+}
+
+#clock {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  background: rgb(134, 140, 140);
+  border-radius: 20px;
+}
+#clock span {
+  font-size: 80px;
+  width: 110px;
+  display: inline;
+  text-align: center;
+  position: relative;
+}
+.digi {
+  text-align: center;
+  margin-top: 2em;
+}
